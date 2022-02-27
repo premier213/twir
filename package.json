@@ -1,0 +1,16 @@
+{
+    "name": "charting_library-master",
+    "version": "1.0.0",
+    "description": "[Demo][demo-url] | [Documentation][wiki-url] | [Tutorial][tutorial-url] | [Discord community][discord-url]",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "serve": "npx serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@git.ravandalgo.com:tsetmc/tradingview_test.git"
+    },
+    "author": "",
+    "license": "ISC"
+}

@@ -29,13 +29,13 @@
 					container: "tv_chart_container",
 
 					//	BEWARE: no trailing slash is expected in feed URL
-					datafeed: new Datafeeds.UDFCompatibleDatafeed("https://cyclical.ravandalgo.ir/api/v1/symbol"),
+					datafeed: new Datafeeds.UDFCompatibleDatafeed("http://cyclical.ravandalgo.ir/api/v1/symbol"),
 					library_path: "charting_library/",
 					locale: getParameterByName('lang') || "en",
 
 					disabled_features: ["use_localstorage_for_settings"],
 					enabled_features: ["study_templates"],
-					charts_storage_url: 'https://irsaveload.ravandalgo.ir',
+					charts_storage_url: 'http://irsaveload.ravandalgo.ir',
 					charts_storage_api_version: "1.1",
 					client_id: 'tradingview.com',
 					user_id: 'public_user_id',
